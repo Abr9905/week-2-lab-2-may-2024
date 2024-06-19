@@ -1,9 +1,29 @@
-html {
-  height: 100%;
+html about.html gallery.html index.html {
+  height: 200%;
   width: 100%;
 }
 
-footer {
+a {
+  border: 5px solid rgba(225, 156, 67, 0.811);
+  border-radius: 10px;
+  padding: 4px;
+  background-color: rgb(186, 90, 210);
+  text-decoration: none;
+  border-style: outset;
+}
+
+img {
+  border: 5px solid rgba(225, 156, 67, 0.811);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgb(186, 90, 210);
+  border-style: dotted
+}
+
+div {
   text-align: center;
-  font-size: x-small;
+  margin-block: 0px;
+  border-radius: 10px;
+  border-spacing: 20px;
+
 }
